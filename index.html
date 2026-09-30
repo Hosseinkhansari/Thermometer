@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thermometer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>thermometer</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+
+            <span class="head">Convert:</span>
+
+            <select id = "temp_base">
+
+                <option value="Kelvin(K)">Kelvin(K)</option>
+                <option value="Celsius(°C)">Celsius(°C)</option>
+                <option value="Fahrenheit(°F)">Fahrenheit(°F)</option>
+
+            </select>
+
+            <span class="head">To:</span>
+
+            <select id = "convert_base">
+
+                <option value="Kelvin(K)">Kelvin(K)</option>
+                <option value="Celsius(°C)">Celsius(°C)</option>
+                <option value="Fahrenheit(°F)">Fahrenheit(°F)</option>
+
+            </select>
+        </div>
+
+        <div class="res">
+            <input id="num" placeholder="Enter temp" type="number" value="0">
+            <p id="res"></p>
+        </div>
+
+
+        <div class="btn">
+            <button id="convert">Convert</button>
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+
+
+    <script src="thermometer.js"></script>
+</body>
+</html>

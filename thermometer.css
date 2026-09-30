@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b0e16;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #180A12, #4A0D18);
+    border-radius: 15px;
+    padding: 25px;
+    gap: 10px;
+}
+
+span{
+    color: #F8FAFC;
+}
+
+select {
+    all: unset;
+    background-color: rgba(7, 10, 20, 0.8);
+    color: #F5F5F5;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input{
+    all: unset;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    /* background-color: rgba(55, 9, 17, 0.75); */
+    /* background-color: rgba(185, 110, 123, 0.349); */
+    background-color: rgba(116, 14, 31, 0.781);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#res{
+    text-align: center;
+    /* color: #dfa3aa; */
+    color: #FF5364;
+    font-weight: 500;
+    display: none;    
+}
+
+button{
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(63, 57, 57);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #A9142B, #13141f);
+    color: white;
+    box-shadow: 0 4px 15px rgba(180, 20, 45, 0.3);
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    background: linear-gradient(135deg, #D71932, #252949);
+}
+
+.head{
+    /* font-family: "Berkshire Swash", serif; */
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    color: #F5F5F5;
+}
